@@ -1,0 +1,119 @@
+#principal{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
+}
+
+header{
+	width: 900px;
+	height: 100px;
+	border: 0px solid #000;
+
+}
+
+#logo{
+	width: 200px;
+	height: 100px;
+	border: 0px solid #000;
+	float: left;
+}
+
+.menu{
+	width: 470px;
+	height: 40px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-top: 40px;
+	background: #006699;
+
+}
+
+.menu ul{}
+
+.menu ul li{
+	list-style: none;
+	float: right;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color: #fff;
+	padding: 10px 20px 10px 20px;
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color: #006699;
+}
+
+#slide{
+	margin-top: 10px;
+	width: 900px;
+	height: 300px;
+}
+
+#categorias{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	margin-top: 10px;
+}
+
+.uno{
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+	text-align: center;
+}
+
+.dos{
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.leer-mas{
+	border: 1px solid #006699;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	margin: 10px;
+}
+
+.leer-mas:hover{
+	background: #006699;
+	color: #fff;
+	transition: background 1s, color 1s;
+}
+
+#info{
+	widows: 900px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+}
+
+#izq{
+	width: 585px;
+	height: auto; overflow: hidden;
+	border: 0px solid #ccc;
+	float: left;
+	padding: 5px;
+}
+
+#der{
+	width: 290px;
+	height: 300px;
+	border: 1px solid #ccc;
+	float: right;
+}
+
+footer{
+	width: 900px;
+	height: 100px;
+	text-align: center;
+}
